@@ -1,16 +1,11 @@
 package com.datasystem.service;
 
-import com.datasystem.controller.Controller;
 import com.datasystem.model.Item;
 import com.datasystem.model.Sale;
 
 import java.util.List;
 
 public class SaleService {
-
-    Sale sale = new Sale();
-    Controller controller = new Controller();
-
 
     public Integer mostExpansiveSale(List<Sale> sales) {
         if (sales.isEmpty()){

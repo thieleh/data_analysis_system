@@ -1,12 +1,10 @@
 package com.datasystem.controller;
 
 import com.datasystem.model.ModelLists;
-import com.datasystem.model.Sale;
 import com.datasystem.service.SaleService;
 
 public class Controller {
     SaleService saleService = new SaleService();
-    Sale sale = new Sale();
 
     public Integer amountCostumers(ModelLists modelLists) {
         return modelLists.getCostumers().size();

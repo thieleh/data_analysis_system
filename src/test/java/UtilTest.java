@@ -11,8 +11,6 @@ import java.util.List;
 
 public class UtilTest {
 
-    Controller controller = new Controller();
-
     @Test
     public void readAllLines(){
         File file = new File("/home/ilegra/data/in/test.dat");

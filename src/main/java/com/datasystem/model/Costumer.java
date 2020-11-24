@@ -7,7 +7,6 @@ public class Costumer {
     private String businessArea;
 
     public Costumer(){
-
     }
 
     public Costumer( String cnpj, String name, String businessArea ) {

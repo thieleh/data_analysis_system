@@ -6,8 +6,6 @@ public class Item {
     private Integer quantity;
     private Double price;
 
-    public Item() {}
-
     public Item( Integer id, Integer quantity, Double price ) {
         this.id = id;
         this.quantity = quantity;
